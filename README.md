@@ -21,6 +21,14 @@ Login at http://localhost:3000 with the default credentials:
 - Email: admin@example.com
 - Password: password123
 
+## Admin Panel
+
+When using the default admin user the admin panel is accessable at http://localhost:3000/motor_admin
+
+## Background job processing
+
+FlowMetr uses Sidekiq for background job processing. When using the default admin user the sidekiq UI is available at http://localhost:3000/sidekiq
+
 ## Documentation
 
 [FlowMetr Documentation](https://docs.flowmetr.com)
