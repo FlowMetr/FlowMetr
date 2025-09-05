@@ -11,7 +11,7 @@ Website: [FlowMetr](https://FlowMetr.com)
 ## Installation
 
 ```bash
-docker compose up
+SEED_DB=true docker compose up
 ```
 
 ## Usage
