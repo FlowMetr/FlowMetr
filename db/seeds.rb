@@ -9,6 +9,7 @@ unless User.exists?(email: admin_email)
     password_confirmation: admin_password,
     admin: true,
     confirmed_at: Time.current
+  )
     
   puts "Created admin user: #{admin_email} with password: #{admin_password}"
 else
