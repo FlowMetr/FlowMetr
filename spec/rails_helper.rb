@@ -13,6 +13,14 @@ require 'database_cleaner/active_record'
 # spec/support/ and its subdirectories.
 Dir[Rails.root.join('spec', 'support', '**', '*.rb')].sort.each { |f| require f }
 
+# Checks for pending migrations and applies them before tests are run.
+# If you are not using ActiveRecord, you can remove these lines.
+begin
+  ActiveRecord::Migration.maintain_test_schema!
+rescue ActiveRecord::PendingMigrationError => e
+  abort e.to_s.strip
+end
+
 # Configure RSpec
 RSpec.configure do |config|
   # Include FactoryBot methods
