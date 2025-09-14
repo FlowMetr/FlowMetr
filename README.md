@@ -6,6 +6,8 @@ Works with every tool, which is capable of sending a http request like:
 
 Website: [FlowMetr](https://FlowMetr.com)
 
+Newsletter: [FlowMetr Newsletter](https://flowmetr.beehiiv.com)
+
 <img src="app/assets/images/flowmetr_short.gif" width="600" alt="FlowMetr">
 
 ## Installation
