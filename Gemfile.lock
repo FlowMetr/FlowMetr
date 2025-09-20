@@ -314,6 +314,8 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    shoulda-matchers (6.5.0)
+      activesupport (>= 5.2.0)
     sidekiq (7.3.9)
       base64
       connection_pool (>= 2.3.0)
@@ -408,6 +410,7 @@ DEPENDENCIES
   redis
   rspec-rails (~> 6.1.0)
   selenium-webdriver
+  shoulda-matchers (~> 6.0)
   sidekiq
   simplecov
   sprockets-rails
@@ -416,9 +419,6 @@ DEPENDENCIES
   turbo-rails
   tzinfo-data
   web-console
-
-RUBY VERSION
-   ruby 3.3.0p0
 
 BUNDLED WITH
    2.5.22

@@ -34,6 +34,3 @@ RSpec.configure do |config|
   # Print the 10 slowest examples and example groups at the end of the run
   config.profile_examples = 10 if config.files_to_run.one?
 end
-
-# Require support files
-Dir["./spec/support/**/*.rb"].sort.each { |f| require f }
